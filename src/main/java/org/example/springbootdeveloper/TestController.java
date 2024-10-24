@@ -19,14 +19,3 @@ public class TestController{
         return members;
     }
 }
-
-//비즈니스 계층
-@Service
-public class TestService{
-    @Autowired
-    MemberRepository memberRepository;
-
-    public List<Member> getAllMembers(){
-        return memberRepository.findAll();
-    }
-}
