@@ -1,0 +1,1 @@
+MemberRepository  여기서 지금 오류발생
